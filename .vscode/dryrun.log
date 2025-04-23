@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/GripGlebe/.vscode/GitHub/Build-your-own-Programming-Language-Second-Edition'
+make: Leaving directory `/Users/GripGlebe/.vscode/GitHub/Build-your-own-Programming-Language-Second-Edition'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
