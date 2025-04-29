@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Tue Apr 29 09:59:34 2025
+
+# Make data base, printed on Tue Apr 29 15:49:20 2025
 
 # Variables
 
@@ -46,7 +49,7 @@ VSCODE_CWD = /
 # environment
 GSETTINGS_SCHEMA_DIR = /Users/GripGlebe/anaconda3/share/glib-2.0/schemas
 # environment
-PATH = /usr/local/opt/curl/bin:/usr/local/opt/ruby@3.0/bin:/opt/homebrew/bin:/usr/local/opt/openjdk@17/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin:/usr/local/opt/openjdk/bin:/usr/local/bin:/Users/GripGlebe/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/GripGlebe/pear/bin:/Users/GripGlebe/pear/bin/phpcs:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/opt/curl/bin:/Users/GripGlebe/anaconda3/bin:/Users/GripGlebe/anaconda3/condabin:/usr/local/opt/ruby@3.0/bin:/opt/homebrew/bin:/usr/local/opt/openjdk@17/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin:/usr/local/opt/openjdk/bin:/Users/GripGlebe/bin:/Users/GripGlebe/.local/bin:/usr/local/sbin:/usr/local/opt/node@14/bin:/usr/local/opt/openssl@3/bin:/usr/local/Cellar/gcc@9/9.4.0/bin:/usr/local/opt/sphinx-doc/bin:/Users/GripGlebe/aspectj1.9/bin:/Users/GripGlebe/Library/Python/3.9/bin:/usr/local/opt/dart/libexec:/Users/GripGlebe/flutterdev/bin:/Users/GripGlebe/.pub-cache/bin:/Users/GripGlebe/.local/bin:/usr/local/sbin:/usr/local/opt/node@14/bin:/usr/local/opt/openssl@3/bin:/usr/local/Cellar/gcc@9/9.4.0/bin:/usr/local/opt/ruby@3.0/bin:/usr/local/opt/sphinx-doc/bin:/Users/GripGlebe/aspectj1.9/bin:/Users/GripGlebe/Library/Python/3.9/bin:/usr/local/opt/node@14/bin:/usr/local/opt/dart/libexec:/Users/GripGlebe/flutterdev/bin:/Users/GripGlebe/.pub-cache/bin:/Users/GripGlebe/.local/bin
+PATH = /usr/local/opt/curl/bin:/Users/GripGlebe/anaconda3/bin:/Users/GripGlebe/anaconda3/condabin:/usr/local/opt/ruby@3.0/bin:/opt/homebrew/bin:/usr/local/opt/openjdk@17/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/bin:/usr/local/opt/openjdk/bin:/usr/local/bin:/Users/GripGlebe/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/GripGlebe/pear/bin:/Users/GripGlebe/pear/bin/phpcs:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/GripGlebe/.local/bin:/usr/local/sbin:/usr/local/opt/node@14/bin:/usr/local/opt/openssl@3/bin:/usr/local/Cellar/gcc@9/9.4.0/bin:/usr/local/opt/ruby@3.0/bin:/usr/local/opt/sphinx-doc/bin:/Users/GripGlebe/aspectj1.9/bin:/Users/GripGlebe/Library/Python/3.9/bin:/usr/local/opt/node@14/bin:/usr/local/opt/dart/libexec:/Users/GripGlebe/flutterdev/bin:/Users/GripGlebe/.pub-cache/bin:/Users/GripGlebe/.local/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -54,7 +57,7 @@ SDKMAN_DIR = /Users/GripGlebe/.sdkman
 # environment
 SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
 # environment
-LaunchInstanceID = 3D9A40AD-41D0-4EF4-8F06-0ADA08888AAC
+LaunchInstanceID = 66AA5E69-9C5D-4E2B-A310-A97C196C97B7
 # environment
 SDKMAN_PLATFORM = darwinarm64
 # environment
@@ -66,7 +69,7 @@ LDFLAGS = -L/usr/local/opt/curl/lib
 # environment
 LS_COLORS = di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.32fUUZXZ7k/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.XjqfeWQ0iv/Listeners
 # environment
 JDEV_HOME_RESOURCES = /Users/GripGlebe/.jdeveloper
 # automatic
@@ -112,8 +115,6 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 1
 # environment
-LOCAL_GIT_DIRECTORY = /Applications/GitHub Desktop.app/Contents/Resources/app/git
-# environment
 VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/
@@ -126,6 +127,7 @@ USER = GripGlebe
 # environment
 IFCPOLICY_FILE = /Users/GripGlebe/jdeveloper/mywork/IFCParaclete/IFCPolicies/IFCPolicy.xml
 # environment
+ 
 CLASSPATH = /Users/GripGlebe/aspectj1.9/lib/aspectjrt.jar;%ANT_HOME
 # environment
 LESS = -R
@@ -194,11 +196,11 @@ CONDA_PREFIX = /Users/GripGlebe/anaconda3
 # environment
 JAVA_HOME_BIN = /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin
 # environment
-VSCODE_PID = 1267
+VSCODE_PID = 440
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=2/114=2%
+# Load=92/1024=9%, Rehash=0, Collisions=2/113=2%
 
 # Pattern-specific Variable Values
 
@@ -206,7 +208,7 @@ LANG = C
 
 # Directories
 
-# . (device 16777229, inode 266418654): 16 files, no impossibilities.
+# . (device 16777234, inode 266418654): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -233,9 +235,6 @@ all:
 
 # Not a target:
 Makefile:
- 
-make: *** No rule to make target `all'.  Stop.
-
 #  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -283,6 +282,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue Apr 29 09:59:34 2025
+# Finished Make data base on Tue Apr 29 15:49:20 2025
 
  
